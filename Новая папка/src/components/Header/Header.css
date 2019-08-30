@@ -1,0 +1,16 @@
+.header{ 
+    grid-area: h;
+    background-color: rgb(41, 48, 88);
+  
+  }
+  .header img{
+    width: 70px;
+  }
+
+  .header.name{
+  height: 10em;
+  display: flex;
+  align-items: center;
+  justify-content: center
+
+  }

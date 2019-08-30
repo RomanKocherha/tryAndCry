@@ -1,0 +1,24 @@
+.menu{
+    grid-area: m;
+    background-color: rgb(41, 48, 88);
+    padding: 20px;
+    text-shadow:  10px;
+    line-height:50px;
+
+    
+  
+  }
+  .item a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size:  18px;
+  }
+  .active{
+    color: gold !important;
+    font-size:  21px !important;
+  }
+
+
+.item.a.active {
+  color: gold;
+}
