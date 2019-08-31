@@ -11,11 +11,11 @@ export default class SwapiService {
 
     async getAllRecipes(){
         const res= await this.getResource('https://cookbook.jakubricar.cz/api/recipes/');
-        return res.results;
+        return res;
     }
     async getRecipe(_id){
         const res= await this.getResource(`https://cookbook.jakubricar.cz/api/recipes/${_id}/`);
-        return res.results;
+        return res;
     }
 
 }

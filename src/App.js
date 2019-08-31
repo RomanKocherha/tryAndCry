@@ -7,7 +7,7 @@ import PageToDoList from './components/ToDoList/PageToDoList';
 import Diary from './components/Diary/Diary';
 import Home from './components/Home/Home.index';
 import Recipes from './components/Recipes/Recipes';
-
+import RecipeDitails from './components/Recipes/RecipeDetails/RecipeDetails';
 
 
 const App =() => {
@@ -21,6 +21,7 @@ const App =() => {
         <Route path="/Home" component={Home}/>
         <Route path="/Recipes" component={Recipes}/>
         <Route path="/ToDoList" component={PageToDoList}/>
+        <Route path="/Podrobnosti" component={RecipeDitails}/>
 
       </div>
     </div>
